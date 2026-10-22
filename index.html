@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>PlotMyCash — Know where your money lands</title>
+<meta name="description" content="PlotMyCash plots your cash flow months ahead — on your machine, and nowhere else. No account. No subscription. Your finances never leave your computer.">
+<link rel="icon" type="image/svg+xml" href="/plotmycash-icon.svg">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1C2A48; --card:#243354; --edge:#31456e;
+    --sheet:#FAFCF8; --paper:#EEF3EC; --dim:#aebad2;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--ink);color:var(--sheet);font-family:"Libre Franklin",system-ui,-apple-system,"Segoe UI",sans-serif;
+       min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;
+       padding:3rem 1.25rem;text-align:center}
+  .mark{width:112px;height:112px;margin-bottom:1.5rem}
+  .mark img{width:100%;height:100%;display:block;border-radius:24px}
+  .wordmark{font-size:1.3rem;font-weight:600;letter-spacing:-.01em;margin-bottom:2.75rem}
+  .headline{font-size:clamp(2rem,6vw,3.4rem);font-weight:800;line-height:1.08;max-width:16ch;margin-bottom:1.1rem}
+  .sub{color:var(--dim);font-size:clamp(1rem,2.4vw,1.2rem);line-height:1.55;max-width:52ch;margin-bottom:2.25rem}
+  .sub strong{color:var(--sheet);font-weight:600}
+  .pill{display:inline-block;border:1px solid var(--edge);color:var(--paper);border-radius:999px;
+        padding:.4rem 1rem;font-size:.85rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;margin-bottom:3rem}
+  .feats{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;max-width:880px;width:100%;margin-bottom:3.5rem}
+  .feat{background:var(--card);border:1px solid var(--edge);border-radius:14px;padding:1.25rem 1.1rem;text-align:left}
+  .feat h3{font-size:.98rem;font-weight:600;margin-bottom:.45rem}
+  .feat p{color:var(--dim);font-size:.9rem;line-height:1.5}
+  @media (max-width:680px){.feats{grid-template-columns:1fr}}
+  footer{color:#7e8fb3;font-size:.85rem;line-height:1.6}
+</style>
+</head>
+<body>
+  <div class="mark"><img src="/plotmycash-icon.svg" alt="PlotMyCash — the Plotted Line"></div>
+  <div class="wordmark">PlotMyCash</div>
+
+  <p class="headline">Know where your money lands.</p>
+  <p class="sub">PlotMyCash plots your cash flow months ahead — <strong>on your machine, and nowhere else.</strong>
+     No account. No subscription. No bank credentials handed to anyone.
+     Your finances never leave your computer.</p>
+
+  <div class="pill">In development — coming soon</div>
+
+  <div class="feats">
+    <div class="feat">
+      <h3>Forecast first</h3>
+      <p>Your projected balance weeks and months out, built from your real schedule of deposits and bills — low points shown honestly, and that you clear them.</p>
+    </div>
+    <div class="feat">
+      <h3>Offline by design</h3>
+      <p>Fully usable with the internet unplugged. Nothing to breach, nothing to leak, because nothing is ever sent anywhere.</p>
+    </div>
+    <div class="feat">
+      <h3>Yours outright</h3>
+      <p>Buy once and own it. Import your Quicken history, keep your data in a file you control, export it whenever you like.</p>
+    </div>
+  </div>
+
+  <footer>
+    PlotMyCash is an AblePaine product.<br>
+    © 2026 AblePaine. All rights reserved.
+  </footer>
+</body>
+</html>
